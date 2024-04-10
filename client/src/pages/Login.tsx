@@ -47,7 +47,7 @@ const Login = () => {
 
     const handleLogin = async (username: string, password: string) => {
         try {
-          const response = await fetch('https://doodhwala.azurewebsites.net/login', {
+          const response = await fetch('https://testreactnode.azurewebsites.net/login', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
